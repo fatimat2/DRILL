@@ -1,0 +1,419 @@
+libdei80211mr_la-wireless-channelpa.lo: wireless-channelpa.cc \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h \
+ wireless-channelpa.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/channel.h \
+ /usr/include/string.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/object.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/scheduler.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/config.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/autoconf.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/include/tcl.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/include/tclDecls.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/include/tclPlatDecls.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/otcl-1.14/otcl.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl-config.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tracedvar.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl-mappings.h \
+ /usr/include/strings.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/heap.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet.h \
+ /usr/include/assert.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/object.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/lib/bsd-list.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet-stamp.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/antenna.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ns-process.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_packets.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_types.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_opt.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/phy.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/bi-connector.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/channel.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/node.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/connector.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/phy.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/net-interface.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/energy-model.h \
+ /usr/include/c++/4.8.2/cstdlib \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/trace/trace.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/trace/basetrace.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/tcp/tcp.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/agent.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/timer-handler.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/apps/app.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ns-process.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/tools/rng.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/location.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/rtmodule.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/addr-params.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-hash.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ip.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-hier.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/addr-params.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/route.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/parentnode.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/address.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-addr.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/mac.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/ll.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/link/delay.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/queue/queue.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/connector.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/arp.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/scheduler.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/lanRouter.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/varp.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/marshall.h \
+ wireless-phymr.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/wireless-phy.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/propagation.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/topography.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet-stamp.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/modulation.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/omni-antenna.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/mobilenode.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/node.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/gridkeeper.h \
+ /home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/timer-handler.h \
+ power_profile.h deipropagation.h
+
+/usr/include/stdc-predef.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/float.h:
+
+wireless-channelpa.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/channel.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/object.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/scheduler.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/config.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/autoconf.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/include/tcl.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/include/tclDecls.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/include/tclPlatDecls.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/otcl-1.14/otcl.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl-config.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tracedvar.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/tclcl-1.20/tclcl-mappings.h:
+
+/usr/include/strings.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/in.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/heap.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet.h:
+
+/usr/include/assert.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/object.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/lib/bsd-list.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet-stamp.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/antenna.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ns-process.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_packets.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_types.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/dccp/dccp_opt.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/phy.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/bi-connector.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/channel.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/node.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/connector.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/phy.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/net-interface.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/energy-model.h:
+
+/usr/include/c++/4.8.2/cstdlib:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/trace/trace.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/trace/basetrace.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/tcp/tcp.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/agent.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/timer-handler.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/apps/app.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ns-process.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/tools/rng.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/location.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/rtmodule.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/addr-params.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-hash.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/ip.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-hier.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/addr-params.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/route.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/parentnode.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/routing/address.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/classifier/classifier-addr.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/mac.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/ll.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/link/delay.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/queue/queue.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/connector.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/arp.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/scheduler.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/lanRouter.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/varp.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/marshall.h:
+
+wireless-phymr.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mac/wireless-phy.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/propagation.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/topography.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/packet-stamp.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/modulation.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/omni-antenna.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/mobilenode.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/node.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/mobile/gridkeeper.h:
+
+/home/fatimat2/Desktop/ns-allinone-2.35/ns-2.35/common/timer-handler.h:
+
+power_profile.h:
+
+deipropagation.h:
